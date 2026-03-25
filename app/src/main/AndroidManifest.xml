@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.quadcore.impact">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IMPACT"
+        tools:targetApi="31">
+
+        <!-- Splash Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.IMPACT.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Create Form Activity -->
+        <activity
+            android:name=".CreateActivity"
+            android:theme="@style/Theme.IMPACT.NoActionBar"/>
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.IMPACT.NoActionBar"
+            android:exported="true"/>
+
+        <activity android:name=".AnswerFormActivity"
+            android:label="Answer Form"
+            android:theme="@style/Theme.IMPACT.NoActionBar"/>
+
+
+
+    </application>
+</manifest>

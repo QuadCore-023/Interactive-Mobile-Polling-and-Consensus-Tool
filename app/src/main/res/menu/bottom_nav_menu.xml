@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/abc_ic_ab_back_material"
+        android:title="Exit" />
+</menu>
